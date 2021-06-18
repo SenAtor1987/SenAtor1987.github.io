@@ -1,4 +1,5 @@
 .body {
+  font-size: 12px;
   margin: 0;
   color: #f4f4f4;
 }
@@ -9,16 +10,38 @@
   margin: 0 auto;
 }
 
-/* navbar */
 .navbar {
   background-color: #373737;
 }
 
 .nav_menu {
   display: flex;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
 }
 
 .nav_link {
-  font-size: 16px;
+  font-size: 11px;
   color: #ffffff;
+  text-decoration: none;
+  opacity: 0.75;
+  transition: opacity 0.2s linear;
+  margin: 0 10px;
+}
+
+.nav_link:hover {
+ color: #ffffff;
+ opacity: 1;
+} 
+
+/* header */
+.header_main {
+  display: flex;
+  height: 90px;
+  align-items: center;
+}
+
+.header_logo {
+  display: flex;
 }
