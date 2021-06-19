@@ -47,8 +47,40 @@
   display: flex;
 }
 
+.nomber {
+  text-decoration: none;
+  color: black;
+  margin: 0 15px;
+  font-size: 24px;
+}
+
+.orfer_call {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ff9d00;
+  text-decoration: none;
+  padding: 12px 23px;
+  color: #ffebcc;
+  font-size: 16px;
+}
+
 .first {
   width: 100%;
-  height: 50px;
-  background: black;
+  height: 530px;
+  background: url("../img/images/first_page.png") center no-repeat;
+}
+
+.boxes {
+  position: absolute;
+  bottom: 20px;
+  left: 80px;
+}
+
+.mein_text {
+  color: #ffffff;
+  font-size: 18px;
+  line-height: 35px;
+  position: absolute;
+  bottom: 270px;
+  left: 650px;
 }
