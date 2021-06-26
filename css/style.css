@@ -99,17 +99,17 @@
 }
 
 .boxes {
-  position: absolute;
-  bottom: 20px;
-  left: 80px;
+  position: relative;
+  top: 50px;
+  left: 70px;
 }
 
 .mein_text {
   color: #ffffff;
   font-size: 18px;
   line-height: 35px;
-  position: absolute;
-  bottom: 270px;
+  position: relative;
+  bottom: 340px;
   left: 650px;
 }
 
@@ -181,6 +181,68 @@
 }
 
 /* products */
+.products {
+  height: 1050px;
+}
+
+.products_title {
+  text-align: center;
+  padding: 30px;
+}
+
+.products_name_all {
+  display: flex;
+  width: 50%;
+  padding: 20px;
+}
+
+.products_name {
+  text-align: center;
+}
+
+.products_icom_position {
+display: flex;
+}
+
+.products_detail {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ffffff;
+  text-decoration: none;
+  padding: 15px 10px;
+  color: #000000;
+  font-size: 20px;
+  border: 1px solid #726e6f; /* Параметры рамки */
+  margin: 0 10px;
+  border-radius: 5px;
+  opacity: 0.75;
+}
+
+.products_pay {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ff9d00;
+  text-decoration: none;
+  padding: 15px 10px;
+  color: #ffebcc;
+  font-size: 20px;
+  border-radius: 5px;
+  margin: 0 10px;
+}
+
+.products_sub_title {
+  font-weight: 100;
+  font-size: 20px;
+  font-family: Roboto-Medium;
+}
+
+/* sentence */
+.sentence {
+  width: 100%;
+  height: 400px;
+  background: url("../img/sentence/images/index_02.png") center no-repeat;
+}
+
 
 
 
