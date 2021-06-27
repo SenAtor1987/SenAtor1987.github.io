@@ -244,6 +244,71 @@ display: flex;
 }
 
 
+/* form */
+.form {
+  position: relative;
+  bottom: 350px;
+  left: 620px;
+  width: 540px;
+  height: 220px;
+  padding: 30px;
+  background: url("../img/form.png");
+  font-family: sans-serif;
+  letter-spacing: 1px;
+  opacity: 1;
+}
+
+.form_input {
+  width: 315px;
+  height: 53px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.form_title {
+  font-family: Roboto-Light;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: normal;
+  opacity: 0.8;
+}
+
+.form_sub_title {
+  font-family: Roboto-Bold;
+  font-size: 22px;
+  color: #ffffff;
+  font-weight: normal;
+  text-transform: uppercase;
+}
+
+.form_button {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ff9d00;
+  text-decoration: none;
+  padding: 18px 35px;
+  color: #ffebcc;
+  font-size: 16px;
+  position: relative;
+  left: 330px;
+  bottom: 55px;
+  border: none;
+  border-radius: 5px;
+}
+
+.form_text {
+  color: #ffffff;
+  position: relative;
+  bottom: 70px;
+  left: 20px;
+  font-weight: normal;
+  opacity: 0.8;
+  font-size: 13px;
+}
+
+
 
 
 
