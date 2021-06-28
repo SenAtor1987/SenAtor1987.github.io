@@ -110,8 +110,21 @@
   line-height: 35px;
   position: relative;
   bottom: 340px;
-  left: 650px;
+  left: 625px;
 }
+
+.text_h1 {
+  font-family: Roboto-Bold;
+  font-size: 41px;
+  letter-spacing: 3px;
+}
+
+.text_h2 {
+  font-family: Roboto-Regular;
+  font-size: 26px;
+  font-weight: normal;
+}
+
 
 /* services */
 .services {
@@ -242,6 +255,86 @@ display: flex;
   height: 400px;
   background: url("../img/sentence/images/index_02.png") center no-repeat;
 }
+
+.sentence_form {
+  text-align: center;
+  position: relative;
+  top: 30px;
+}
+
+.sentence_form_input {
+  width: 315px;
+  height: 53px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 14px;
+}
+
+.sentence_form_button {
+  display: inline-block;
+  vertical-align: top;
+  background-color: #ff9d00;
+  text-decoration: none;
+  padding: 18px 35px;
+  color: #ffebcc;
+  font-size: 16px;
+  position: relative;
+  top: 15px;
+  border: none;
+  border-radius: 5px;
+}
+
+.sentence_form_title {
+  font-family: Roboto-Regular;
+  font-size: 32px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.sentence_form_sub_title {
+  font-family: Roboto-Light;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+.sentence_form_text {
+  font-family: Roboto-Light;
+  font-size: 14px;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* form */
