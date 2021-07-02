@@ -56,9 +56,9 @@
 }
 
 .nav_link:hover {
- color: #ffffff;
- opacity: 1;
-} 
+  color: #ffffff;
+  opacity: 1;
+}
 
 /* header */
 .header_main {
@@ -125,7 +125,6 @@
   font-weight: normal;
 }
 
-
 /* services */
 .services {
   width: 100%;
@@ -159,7 +158,7 @@
 }
 
 .servisec_name_all {
- display: flex;
+  display: flex;
 }
 
 .services_name {
@@ -178,7 +177,7 @@
 
 .services_icom_position {
   text-align: left;
-  padding: 10px 10px 20px 10px ;
+  padding: 10px 10px 20px 10px;
   line-height: 18px;
 }
 
@@ -214,7 +213,7 @@
 }
 
 .products_icom_position {
-display: flex;
+  display: flex;
 }
 
 .products_detail {
@@ -306,37 +305,6 @@ display: flex;
   font-weight: 100;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 /* form */
 .form {
   position: relative;
@@ -401,12 +369,22 @@ display: flex;
   font-size: 13px;
 }
 
+/* production */
+.production_page {
+  width: 530px;
+  height: 370px;
+}
 
+.slader_container {
+  overflow: hidden;
+  background-color: pink;
+}
 
+.slider_track {
+  display: flex;
+  transition: 0.2s;
+}
 
-
-
-
-
-
-
+.production_page_item {
+  height: 370px;
+}
