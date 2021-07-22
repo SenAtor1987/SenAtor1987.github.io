@@ -155,7 +155,7 @@ button:focus {
 
 .menu a:hover {
   opacity: 1;
-  text-decoration: underline;
+  color: #ff9d00;
 }
 
 .menu__separator {
@@ -166,6 +166,29 @@ button:focus {
   margin-right: 13px;
   margin-left: 13px;
 }
+
+/* menu_fixed */
+.menu_fixed {
+  position: fixed;
+  height: 20px;
+  animation-name: show_menu;
+  animation-duration: 1s;
+}
+
+@keyframes show_menu {
+  0% {
+    top: -50px;
+    height: 10px;
+    font-size: 10px;
+  }
+  100% {
+    top: 0px;
+    height: 10px;
+    background: #ff9d00;
+    font-size: 5px;
+  }
+}
+/* menu_fixed_end*/
 
 .nav {
   background-color: purple;
@@ -807,6 +830,8 @@ button:focus {
   display: block;
   margin: auto;
   margin-bottom: 12px;
+  font-size: 16px;
+  text-align: center;
 }
 
 .offer-form__button {
